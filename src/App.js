@@ -1,25 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Primeiro from './components/Primeiro'
+import CompPadrao, {Componente1, Componente2, Componente3, Componente4} from './components/Multi'
+import Teste, {TesteGuilherme} from './components/Teste';
+function App (){
+  return(
+    <di>
+      <Primeiro/>
+      <CompPadrao/> 
+      <Componente1/>
+      <Componente2/>
+      <Componente3/>
+      <Componente4/> 
+      <Teste/>
+      <TesteGuilherme/>
+    </di>
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+  ) 
 }
 
 export default App;
+
+
