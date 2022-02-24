@@ -1,0 +1,29 @@
+.item{
+    background-color: coral;
+    width: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: auto;
+   
+
+}
+
+.nome{
+    font-weight: bold;
+}
+
+.marca{
+    color: blue;
+}
+
+.preco{
+    color:chartreuse
+}
+
+.modelo{
+    color:red
+}
+
+.cor{
+    color: blueviolet;
+}
