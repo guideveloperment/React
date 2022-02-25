@@ -13,8 +13,15 @@ import Contador from './components/Contador';
 import Propriedades from './components/propriedades/Propriedades';*/
 //import Carros from './carros/Carros';
 //import Pai from './components/direta/Pai';
-import Pai from './components/indireta/Pai';
-
+//import Pai from './components/indireta/Pai';
+//import Familia from './components/children/Familia';
+//import Membro from './components/children/Membro';
+//import ParImpar from './components/condicional/ParImpar';
+//import If from './components/condicional/if';
+//import UsuarioLogado from './components/condicional/UsuarioLogado';
+//import ListaProdutos from './components/Lista/ListaProdutos';
+//import DigiteSeuNome from './components/DigiteSeuNome';
+import CadastroNome from './components/classe/CadastroNome';
 
 function App() {
   return (
@@ -61,10 +68,54 @@ function App() {
      // <Pai />
     //</div>
 
+    //<div>
+     // <Pai/>
+    //</div>
+
+    /*<div>
+      <Familia>
+        <Membro nome="Gui" sobrenome="Viana"></Membro>
+        <Membro nome="Guilherme" sobrenome="AP Viana"></Membro>
+      </Familia>
+
+      <Familia>
+        <Membro nome="Gui" sobrenome="Viana"></Membro>
+        <Membro nome="Guilherme" sobrenome="AP Viana"></Membro>
+      </Familia>
+      
+    </div>*/
+
+    /*<div>
+      <ParImpar num={1}/>
+      <ParImpar num={2}/>
+      <ParImpar/>
+     
+    </div>*/
+
+    /*<div>
+      <UsuarioLogado usuario={{nome: 'Ronaldo', email: 'ronaldo@gmail.com'}}/>
+      <UsuarioLogado usuario={{nome: 'Ronaldo'}}/>
+      <UsuarioLogado usuario={{email: 'ronaldo@gmail.com'}}/>
+
+    </div>*/
+
+    //<div>
+
+       //   <ListaProdutos/>
+   // </div>
+
+    //<div>
+     // <DigiteSeuNome/>
+     
+    //</div>
+
     <div>
-      <Pai/>
+
+    <CadastroNome/>
+
     </div>
 
+    
 
   )
 }
